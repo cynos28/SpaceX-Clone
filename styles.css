@@ -3,6 +3,10 @@
     src: url('fonts\D-DIN-Bold.otf');
 }
 
+html, body{
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: #000;
     color: aliceblue;
@@ -30,6 +34,7 @@ header {
     max-width: 1400px;
     margin: 0 auto;
     margin-right: 20%;
+    height:40px;
     
 }
 
@@ -61,7 +66,26 @@ header a.logo{
 .right-nav{
 
     position: fixed;
-    top: 0;
+    top: 30px;
     right: 0;
-    p
+    height:40px;
+    display:flex;
+    align-items: center;
+}
+.right-nav a{
+    padding-right: 40px;
+    text-decoration: none;
+    padding: 0 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.hamburger{
+    
+    margin-right:20px;
+    top:10px;
+    color:#fff;
+    background-color: transparent;
+    border:0;
+    transform: rotate(90deg);
 }
